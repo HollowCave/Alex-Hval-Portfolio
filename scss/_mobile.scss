@@ -61,6 +61,11 @@
       "job3";
 
     grid-template-columns: 1fr;
+
+    a >#certificate {
+      height: auto;
+      width: 100%;
+    }
   }
 
   .projects {

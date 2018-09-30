@@ -15,6 +15,10 @@ body {
   line-height: 1.5;
 }
 
+.txt-type {
+  border-right: 0.1rem solid #999;
+}
+
 // Headings
 h1,
 h2,
@@ -96,10 +100,28 @@ main {
 
   .job-1 {
     grid-area: job1;
+
+    a >#certificate {
+      display: grid;
+      margin: auto;
+      width: 100%;
+      height: auto;
+    }
   }
 
   .job-2 {
     grid-area: job2;
+
+    #soloLearn {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+      font-size: 1.5rem;
+
+      a:hover {
+        color: $secondary-color;
+      }
+    }
   }
 
   .job-3 {
