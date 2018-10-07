@@ -116,6 +116,17 @@ body {
 .txt-type {
   border-right: 0.1rem solid #999; }
 
+#resume-button {
+  background-color: #4717F6;
+  margin-top: 2rem;
+  padding: .5rem;
+  cursor: pointer;
+  border-radius: 4px; }
+
+#resume {
+  font-size: 1rem;
+  color: #fff; }
+
 h1,
 h2,
 h3 {
@@ -269,6 +280,7 @@ main {
       line-height: 1;
       margin-top: 1rem;
       margin-bottom: 1rem;
+      font-size: 5rem;
       font-style: 1rem; }
   div.menu-branding,
   ul.menu-nav {
