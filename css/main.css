@@ -313,7 +313,7 @@ main {
 @media screen and (max-width: 500px) {
   .menu-branding {
     margin: 0;
-    padding-bottom: .05; }
+    padding-bottom: .09rem; }
   main#home h1 {
     margin-top: 10vh; }
   .projects {
