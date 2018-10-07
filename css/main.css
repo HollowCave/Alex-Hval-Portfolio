@@ -52,8 +52,8 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 240px;
-      height: 240px;
+      width: 250px;
+      height: 250px;
       background: url("../img/myself.jpg") no-repeat;
       border-radius: 50%;
       border: solid 3px #4717F6; }
