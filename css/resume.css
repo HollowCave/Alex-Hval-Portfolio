@@ -1,0 +1,76 @@
+:root {
+  --primary: #4484ce;
+  --dark: #;
+  --light: #f2f2f2;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Poppins;
+  font-weight: 800;
+}
+
+.container {
+  box-shadow: var(--shadow);
+}
+
+#titleColor {
+  margin-top: 2rem;
+  color: var(--primary);
+}
+
+/* Name a Skill Title */
+#title {
+  font-size: 1.5rem;
+  font-family: Roboto;
+}
+
+/* Contact Information Top Right */
+#info {
+  padding: 2rem;
+  margin-bottom: 0;
+  list-style: none;
+  font-size: 1.1rem;
+  background-color: var(--light);
+}
+
+#info > li {
+  padding: .2rem;
+}
+
+#header {
+  margin-top: 3rem;
+  background-color: var(--primary);
+}
+
+/* About Section */
+
+#about {
+  margin-top: 2rem;
+  padding: .5rem;
+  background-color: var(--light);
+}
+
+/* Experience Section */
+#experience {
+  margin-top: 2rem;
+  padding: .5rem;
+  background-color: var(--light);
+}
+
+/* Education Section */
+
+#education {
+  margin-top: 2rem;
+  padding: .5rem;
+  background-color: var(--light);
+}
+
+/* Professional References */
+#references {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding: .5rem;
+  background-color: var(--light);
+}
+

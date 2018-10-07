@@ -261,10 +261,15 @@ main {
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
-    text-align: center; }
+    text-align: center;
+    padding: 2rem; }
+    main #home h1 {
+      margin-top: 10vh; }
     main .lg-heading {
       line-height: 1;
-      margin-bottom: 1rem; }
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      font-style: 1rem; }
   div.menu-branding,
   ul.menu-nav {
     float: none;
@@ -291,7 +296,7 @@ main {
       height: auto;
       width: 100%; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: 1fr; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
