@@ -108,19 +108,19 @@ sr.reveal('#drop-down', {
   distance: '300px'
 });
 
-sr.reveal('#about', {
+sr.reveal('#abouts', {
   duration: 2000,
   origin: 'right',
   distance: '1500px'
 });
 
-sr.reveal('#experience', {
+sr.reveal('#experiences', {
   duration: 2000,
   origin: 'left',
   distance: '1500px'
 });
 
-sr.reveal('#education', {
+sr.reveal('#educations', {
   duration: 2000,
   origin: 'right',
   distance: '1500px'
