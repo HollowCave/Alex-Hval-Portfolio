@@ -298,7 +298,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/small.jpg");
+      background: url("../img/small.jpg") no-repeat;
       width: 150px;
       height: 150px; }
   .about-info {
