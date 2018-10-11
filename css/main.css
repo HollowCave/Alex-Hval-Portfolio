@@ -52,7 +52,6 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      background-position: center;
       width: 250px;
       height: 250px;
       background: url("../img/myself.jpg") no-repeat;
