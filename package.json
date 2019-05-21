@@ -11,7 +11,7 @@
   "author": "Alex Hval",
   "license": "MIT",
   "dependencies": {
-    "gh-pages": "^2.0.0",
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.9.3"
   }
 }

@@ -5,6 +5,10 @@
   --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: Poppins;
   font-weight: 800;
@@ -16,6 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #titleColor {
   margin-top: 2rem;
+  overflow-wrap: break-word;
   color: var(--primary);
 }
 
@@ -74,3 +79,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--light);
 }
 
+#no-marg {
+  margin: 0;
+  padding: .3rem 0;
+}

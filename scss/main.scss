@@ -20,6 +20,18 @@ body {
 }
 
 // Resume Button
+#resume-button {
+  background-color: $secondary-color;
+  margin-top: 2rem;
+  padding: .5rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+  #resume {
+    font-size: 1rem;
+    color: #fff;
+  }
 
 // Headings
 h1,
